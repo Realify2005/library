@@ -1,0 +1,38 @@
+body {
+    background-color: #efeff5;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.add-book > form {
+    background-color: white;
+    display: grid;
+    grid-auto-flow: row;
+    grid-template-columns: 1fr;
+    font-size: 32px;
+}
+ .add-book > form > input[type="checkbox"] {
+    height: 30px;
+    width: 30px;
+    justify-self: center;
+ }
+
+ .add-book > form > button[type="submit"] {
+    font-size: 32px;
+ }
+
+ .list-of-books {
+    display: grid;
+    grid-auto-flow: column;
+    gap: 20px;
+ }
+
+ .book {
+    background-color: greenyellow;
+ }
+
+ .add-book-btn {
+    display: none;
+ }
