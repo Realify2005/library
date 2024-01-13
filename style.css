@@ -36,3 +36,11 @@ body {
  .add-book-btn {
     display: none;
  }
+
+ input:invalid {
+   border: 1px solid red;
+ }
+
+ #pagesError {
+   color: red;
+ }

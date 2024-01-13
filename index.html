@@ -20,7 +20,8 @@
             <input type="text" id="author" name="author" required>
             
             <label for="pages">Pages</label>
-            <input type="number" id="pages" name="pages" required>
+            <input type="number" id="pages" name="pages" min="50" required>
+            <p id="pagesError"></p>
 
             <label for="read">Did you finish reading the book?</label>
             <input type="checkbox" id="read" name="read">
